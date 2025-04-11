@@ -139,7 +139,7 @@ export const Main = () => {
 
 								<Box style={{ marginRight: "1rem" }}>
 									<a
-										href="https://twitter.com/dev_sproff"
+										href="https://x.com/sewogoodness"
 										target="_blank"
 										rel="noreferrer"
 										style={{

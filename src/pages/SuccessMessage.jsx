@@ -28,21 +28,21 @@ export const SuccessMessage = () => {
 								mb={["0", "1rem", "1rem", "1rem"]}
 								textDecoration="uppercase"
 								variant="outline"
-								borderColor="rgb(226 101 62)"
+								borderColor="rgb(255 66 66)"
 								borderRadius="4px"
 								boxShadow="none"
-								color="rgb(226 101 62)"
+								color="rgb(255 66 66)"
 								fontSize="1rem"
 								padding="0 2rem"
 								_active={{
-									backgroundColor: "rgb(226 101 62)",
+									backgroundColor: "rgb(255 66 66)",
 								}}
 								_focus={{
 									boxShadow: "none",
 								}}
 								_hover={{
-									borderColor: "rgb(226 101 62)",
-									backgroundColor: "rgb(226 101 62)",
+									borderColor: "rgb(255 66 66)",
+									backgroundColor: "rgb(255 66 66)",
 									boxShadow: "none",
 									color: "#fff",
 								}}

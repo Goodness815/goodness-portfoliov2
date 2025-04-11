@@ -14,7 +14,7 @@ import { useForm, ValidationError } from "@formspree/react";
 import { MainLayout } from "../layouts/MainLayout";
 
 export const Contact = () => {
-	const [submit, handleSubmit] = useForm("xyyljerr");
+	const [submit, handleSubmit] = useForm("xayanlpy");
 
 	if (submit.succeeded) {
 		return <Redirect to="/success" />;
@@ -61,7 +61,7 @@ export const Contact = () => {
 										borderColor: "rgba(255, 255, 255, 0.4)",
 									}}
 									_focus={{
-										borderColor: "rgb(226 101 62)",
+										borderColor: "rgb(255 66 66)",
 										boxShadow: "none",
 									}}
 								/>
@@ -87,7 +87,7 @@ export const Contact = () => {
 										borderColor: "rgba(255, 255, 255, 0.4)",
 									}}
 									_focus={{
-										borderColor: "rgb(226 101 62)",
+										borderColor: "rgb(255 66 66)",
 										boxShadow: "none",
 									}}
 								/>
@@ -113,7 +113,7 @@ export const Contact = () => {
 										borderColor: "rgba(255, 255, 255, 0.4)",
 									}}
 									_focus={{
-										borderColor: "rgb(226 101 62)",
+										borderColor: "rgb(255 66 66)",
 										boxShadow: "none",
 									}}
 								/>
@@ -126,6 +126,8 @@ export const Contact = () => {
 
 							<Box>
 								<Button
+									isLoading={submit.submitting}
+									loadingText="Sending..."
 									type="submit"
 									disabled={submit.submitting}
 									mt="2rem"
@@ -139,14 +141,14 @@ export const Contact = () => {
 									fontSize="1rem"
 									padding="0 2rem"
 									_active={{
-										backgroundColor: "rgb(226 101 62)",
+										backgroundColor: "rgb(255 66 66)",
 									}}
 									_focus={{
 										boxShadow: "none",
 									}}
 									_hover={{
-										borderColor: "rgb(226 101 62)",
-										backgroundColor: "rgb(226 101 62)",
+										borderColor: "rgb(255 66 66)",
+										backgroundColor: "rgb(255 66 66)",
 										boxShadow: "none",
 										color: "#fff",
 									}}

@@ -35,9 +35,9 @@ export const Main = () => {
 						fontSize={["2rem", "2rem", "1.7rem", "2rem"]}
 						fontWeight="700"
 					>
-						<span style={{ color: "rgb(226 101 62)" }}>Hello,</span> I’m
+						<span style={{ color: "red" }}>Hello,</span> I’m
 						<br />
-						Samuel Ogunleye.
+						Goodness Sewo.
 					</Text>
 
 					<Text
@@ -50,12 +50,12 @@ export const Main = () => {
 						width={["100%", "100%", "100%", "100%"]}
 						lineHeight="2.1"
 					>
-						I'm currently a Senior Frontend Engineer at{" "}
+						I'm currently a Frontend Engineer  at{" "}
 						<CLink
 							href="https://atrace.co"
 							style={{
 								boxShadow: "none",
-								color: "rgb(226 101 62)",
+								color: "rgb(255 66 66)",
 							}}
 							isExternal
 						>
@@ -74,16 +74,16 @@ export const Main = () => {
 							textDecoration="uppercase"
 							variant="outline"
 							border="3px solid"
-							borderColor="rgb(226 101 62)"
+							borderColor="rgb(255 66 66)"
 							boxShadow="none"
-							color="rgb(226 101 62)"
+							color="rgb(255 66 66)"
 							fontFamily="Space Grotesk"
 							fontSize={["1rem", "1rem", "1rem", "1.2rem"]}
 							padding="0 2rem"
-							_active={{ backgroundColor: "rgb(226 101 62)" }}
+							_active={{ backgroundColor: "rgb(255 66 66)" }}
 							_focus={{ boxShadow: "none" }}
 							_hover={{
-								backgroundColor: "rgb(226 101 62)",
+								backgroundColor: "rgb(255 66 66)",
 								color: "rgba(255, 255, 255, 0.8)",
 							}}
 						>
@@ -104,8 +104,8 @@ export const Main = () => {
 									>
 										<WrapItem>
 											<Avatar
-												name="Samuel Ogunleye"
-												src="https://res.cloudinary.com/sproff/image/upload/Sproff/sam_u6e4sc.jpg"
+												name="Goodness Sewo"
+												src="https://res.cloudinary.com/dhlhdrh3i/image/upload/v1744335685/goodness1_bky6uw.jpg"
 											/>
 										</WrapItem>
 									</Wrap>
@@ -113,7 +113,7 @@ export const Main = () => {
 
 								<Box style={{ marginRight: "1rem" }}>
 									<a
-										href="https://github.com/Sproff"
+										href="https://github.com/Goodness815"
 										target="_blank"
 										rel="noreferrer"
 										style={{
@@ -165,7 +165,7 @@ export const Main = () => {
 
 								<Box>
 									<a
-										href="https://www.linkedin.com/in/sam-ogunleye"
+										href="https://www.linkedin.com/in/sewo-goodness-8080401bb"
 										target="_blank"
 										rel="noreferrer"
 										style={{

@@ -51,7 +51,7 @@ export const Resume = () => {
 										fontWeight="900"
 										fontSize="2rem"
 									>
-										Samuel Ogunleye
+										Goodness Sewo
 									</Text>
 									<Text
 										fontSize="1rem"

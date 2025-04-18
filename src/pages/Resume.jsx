@@ -23,7 +23,7 @@ export const Resume = () => {
 	];
 
 	const resumeLink =
-		"https://drive.google.com/file/d/14j3NfFnZW2kvosSPpWi8tc1RFko5wiP0/view?usp=sharing";
+		"https://docs.google.com/document/d/1F_ryFuDTHBUN-hljexwNvuODHWYi48J4/edit?usp=drive_link&ouid=117335783367300901923&rtpof=true&sd=true";
 
 	return (
 		<Box w="100%">
@@ -65,7 +65,7 @@ export const Resume = () => {
 								<Box>
 									<Link
 										href={resumeLink}
-										download="SAMUEL_OGUNLEYE_CV"
+										download="GOODNESS_SEWO_CV"
 										style={{
 											boxShadow: "none",
 										}}

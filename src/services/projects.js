@@ -1,67 +1,65 @@
 export const projects = [
 	{
 		title: "Checkedgar",
-		tools: "Next.js + TypeScript + Chakra-UI + Zustand",
+		tools: "Next.js + Node.js + MongoDB + Chakra UI v2",
 		description:
-			"Afrilearn is an educational platform that provides world-class education for Africans, anywhere.",
+			"A personal platform showcasing Edgar’s podcasts, shows, movies, stories, and events.",
 		live_link: "https://checkedgar.com/",
 		github_link: "",
 		isDisabled: true,
 	},
 	{
 		title: "Sabi Consulting",
-		tools:
-			"Next.js + TypeScript + Chakra-UI + GSAP + NodeJS + ExpressJS + MongoDB",
+		tools: "React + TailwindCSS + Node.js + MongoDB",
 		description:
-			"Lucid Games is a versatile collection of card games played by various groups and categories of individuals.",
+			"Official site for a tech school offering course enrollment and training resources.",
 		live_link: "https://www.sabiconsulting.org/",
 		github_link: "",
 		isDisabled: true,
 	},
 	{
 		title: "The Eniivy Brand",
-		tools: "Next.js + TypeScript + TailwindCSS + Zustand",
+		tools: "Next.js + TypeScript + Node.js + Firebase + Cloudinary",
 		description:
-			"Stickerkeen help companies source, create, store and send sticky promotional merchandise to anyone, anywhere in Africa.",
+			"Portfolio platform for Eniivy, featuring her trio of brands with including gallery features, event postings and job listings all with an integrated CMS.",
 		live_link: "https://eniivy.com/",
 		github_link: "",
 		isDisabled: true,
 	},
 	{
 		title: "Emniks Engineering",
-		tools: "Next.js + TypeScript + Chakra-UI + NodeJS + ExpressJS + MongoDB",
+		tools: "React + TailwindCSS",
 		description:
-			"The OTPD is a bioinformatics platform with comprehensive data on Amyotrophic Lateral Sclerosis (ALS).",
+			"Engineering portfolio website showcasing Emniks’ projects and services.",
 		live_link: "https://emniksengineering.com/",
-		github_link:
-			"https://github.com/Sproff/open-targets-potential-drugs-for-amyotrophic-lateral-sclerosis",
+		github_link: "",
 		isDisabled: false,
 	},
 	{
 		title: "BugBook Socials",
-		tools: "Next.js + TypeScript + Chakra-UI + Strapi + Postgres",
+		tools: "Next.js + TypeScript + TailwindCSS + Firebase + Postgres",
 		description:
-			"A Christian community that empowers and equips young people to live purposeful lives.",
+			"Full-featured social media app with functionality similar to X (formerly Twitter).",
 		live_link: "https://nextjs-15-social-media-app.vercel.app/",
 		github_link: "",
 		isDisabled: true,
 	},
 	{
 		title: "Ophir",
-		tools:
-			"Next.js + TypeScript + Chakra-UI + Zustand + NodeJS + ExpressJS + MongoDB",
-		description: "Clothing e-commerce web app.",
-		live_link: "https://bimals-closet.vercel.app",
-		github_link: "https://ophir.netlify.app/",
+		tools: "React + TailwindCSS + Ant Design + Node.js + MongoDB + Paystack",
+		description:
+			"E-learning platform built for Web3 students with integrated payment support.",
+		live_link: "https://ophir.netlify.app/",
+		github_link: "",
 		isDisabled: false,
 	},
 	{
 		title: "YC Directory",
-		tools:
-			"Next.js + TypeScript + Chakra-UI + Zustand + NodeJS + ExpressJS + MongoDB",
-		description: "Clothing e-commerce web app.",
+		tools: "Next.js + TypeScript + Supabase + TailwindCSS",
+		description:
+			"Platform to pitch blog ideas, grow startups, get votes, and gain online visibility.",
 		live_link: "https://yc-directory-sand-two.vercel.app/",
-		github_link: "https://ophir.netlify.app/",
+		github_link: "",
 		isDisabled: false,
 	},
 ];

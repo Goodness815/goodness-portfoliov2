@@ -44,7 +44,7 @@ const ProjectCard = ({ project }) => {
 					color="rgba(255, 255, 255, 0.9)"
 					fontWeight="700"
 					fontSize="1rem"
-					textTransform="uppercase"
+					// textTransform="uppercase"
 					letterSpacing="0.5px"
 					mb="0.4rem"
 				>

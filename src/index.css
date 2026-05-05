@@ -126,11 +126,11 @@ path:nth-child(8) {
 }
 
 .selected {
-	color: rgb(255 66 66);
+	color: rgb(255, 66, 66);
 }
 
 .selected .active_border {
-	border: 3px solid rgb(255 66 66);
+	border: 3px solid rgb(255, 66, 66);
 }
 
 .selected .active_mobile_border {
@@ -138,7 +138,30 @@ path:nth-child(8) {
 }
 
 .selected .vertical_line {
-	background-color: rgb(255 66 66);
+	background-color: rgb(255, 66, 66);
+}
+
+.selected .mobile_active_dot {
+	opacity: 1;
+	background-color: rgb(255, 66, 66);
+}
+
+/* Mobile nav default colors */
+.mobile_nav_icon {
+	color: rgba(255, 255, 255, 0.75);
+}
+
+.mobile_nav_label {
+	color: rgba(255, 255, 255, 0.5);
+}
+
+/* Mobile nav active override */
+.selected .mobile_nav_icon {
+	color: rgb(255, 66, 66);
+}
+
+.selected .mobile_nav_label {
+	color: rgb(255, 66, 66);
 }
 
 input:-webkit-autofill,

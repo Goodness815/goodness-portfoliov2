@@ -53,7 +53,7 @@ export const MobileNavBar = () => {
 				bgColor="#1a1919"
 				zIndex="999"
 				padding="1.5rem 0"
-				borderTop="1px solid rgba(255, 255, 255, 0.3)"
+				borderTop="1px solid rgba(255, 255, 255, 0.08)"
 			>
 				{navLinks.map((item) => {
 					return (
@@ -63,27 +63,36 @@ export const MobileNavBar = () => {
 							to={item.link}
 							activeClassName="selected"
 						>
-							<Box cursor="pointer">
+							<Box cursor="pointer" display="flex" flexDirection="column" alignItems="center">
 								<Box
-									className="active_mobile_border"
+									className="active_mobile_border mobile_nav_icon"
 									borderRadius="8px"
 									p=".3rem .5rem"
 									display="flex"
 									justifyContent="center"
-									marginBottom=".2rem"
+									marginBottom=".15rem"
+									fontSize="1.2rem"
 								>
 									{item.icon}
 								</Box>
 								<Text
+									className="mobile_nav_label"
 									fontFamily="Space Grotesk"
-									fontSize=".5rem"
+									fontSize=".48rem"
 									textTransform="uppercase"
 									fontWeight="700"
 									textAlign="center"
-									color="#747474"
 								>
 									{item.title}
 								</Text>
+								<Box
+									className="mobile_active_dot"
+									width="4px"
+									height="4px"
+									borderRadius="full"
+									mt=".2rem"
+									opacity="0"
+								/>
 							</Box>
 						</NavLink>
 					);

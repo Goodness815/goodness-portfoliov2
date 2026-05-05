@@ -66,6 +66,8 @@ export const SideBar = () => {
 										border="3px solid rgba(255, 255, 255, 0.3)"
 										borderRadius="8px"
 										p=".4rem"
+										color="rgba(255, 255, 255, 0.75)"
+										fontSize="1.1rem"
 									>
 										{item.icon}
 									</Box>
@@ -75,7 +77,7 @@ export const SideBar = () => {
 										fontWeight="700"
 										textAlign="center"
 										padding=".3rem 0"
-										color="#747474"
+										color="rgba(255, 255, 255, 0.5)"
 									>
 										{item.title}
 									</Text>

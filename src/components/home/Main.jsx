@@ -50,7 +50,19 @@ export const Main = () => {
 						width={["100%", "100%", "100%", "100%"]}
 						lineHeight="2.1"
 					>
-						I'm currently a Frontend Engineer  at{" "}
+						Software engineer with 4+ years of experience crafting full-stack
+					applications. Currently Senior Engineer at{" "}
+						<CLink
+							href="http://maotronics.cc"
+							style={{
+								boxShadow: "none",
+								color: "rgb(255 66 66)",
+							}}
+							isExternal
+						>
+							Maotronics
+						</CLink>
+						{/* {" "}& part-time Engineer at{" "}
 						<CLink
 							href="https://atrace.co"
 							style={{
@@ -59,12 +71,9 @@ export const Main = () => {
 							}}
 							isExternal
 						>
-							{" "}
 							aTrace
-						</CLink>
-						, where I focus on improving the quality of frontend code by paying
-						close attention to details with the help of grade A softwares and
-						developer tools/processes.
+						</CLink> */}
+						. Committed to scalable, high-performing software that drives real user impact.
 					</Text>
 				</Box>
 

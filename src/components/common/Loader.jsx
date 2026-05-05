@@ -8,7 +8,7 @@ export const Loader = () => {
                 className="loader"
                 width="100%"
                 height="100%"
-                viewBox="0 0 800 200"
+                viewBox="0 0 400 200"
                 xmlns="http://www.w3.org/2000/svg"
             >
                 <text
